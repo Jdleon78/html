@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Kitty Shoes</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo-title">
+            <img src="logo.jpg" alt="Logo" class="logo">
+            <h1 class="title">SHOES KITTY</h1>
+        </div>
+        <div class="header-buttons">
+            <a href="index.html" class="btn-header">Inicio</a>
+            <a href="comprar.html" class="btn-header">Comprar</a>
+        </div>
+    </header>
+
+    <main class="contact-form-section">
+        <h1>Contacto</h1>
+        <form action="enviar-correo.php" method="post">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+
+    <footer>
+        <div class="footer-info">
+            <h2>¿Necesitas ayuda?</h2>
+            <p>Llama al 800 668 4389</p>
+            <p>De lunes a viernes de 09:00 a 18:00.</p>
+            <p>Envíanos un email a <a href="mailto:contacto@kittyshoes.com">contacto@kittyshoes.com</a></p>
+        </div>
+    </footer>
+</body>
+</html>
